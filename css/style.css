@@ -1,0 +1,96 @@
+. {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 2rem;
+}
+
+nav {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+#img-div p {
+    background-color: #eee;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width: 49.5rem;
+}
+
+#image {
+    max-width: 50rem;
+    display: block;
+}
+
+.img2 {
+    width: 60rem;
+    display: block;
+}
+
+.prison {
+    background-color: #eee;
+    font-size: 1rem;
+    margin-top: -0.2rem;
+    padding: .3rem 0rem .3rem 0rem;
+    text-align: center;
+    width: 53.2rem;
+}
+
+.quote {
+    opacity: 0.5;
+    font-size: 1rem;
+    text-align: center
+}
+
+.speech {
+    text-align: center;
+    font-size: 1rem;
+}
+
+p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+section {
+    padding: 20px;
+    margin: 1rem auto 0px;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+    margin: 10px auto;
+    padding: auto;
+    text-align: center;
+    opacity: 0.8;
+}
